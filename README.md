@@ -1,0 +1,1 @@
+This is an Etch-A-Sketch built in HTML, CSS, and Javascript. Simply enter a number based on how large you'd like the grid to be. Then, hover over each box to change its color.
