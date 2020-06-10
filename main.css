@@ -1,0 +1,33 @@
+
+body {
+    background-color: tomato;
+}
+
+h1 {
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 35px;
+}
+
+.main-container {
+    position: relative;
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 10em;
+    display: grid;
+    border: solid black 15px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#grid-size-entry {
+    margin: 0 auto;
+    width: 100%;
+    margin-left: 300px;
+}
