@@ -5,7 +5,29 @@
         <link rel="stylesheet" type="text/css" href="main.css">
     </head>
     <body>
-        <h1 class='main-header'>Jared's Etch-A-Sketch</h1>
+        <h1 class='main-header'>Etch-A-Sketch</h1>
+        <div class='user-choices'>
+            <div class='size-color'>
+                <div id='grid-size-entry'>
+                    <label for="grid-entry">Please enter a Grid size:</label>
+                    <input name='grid-entry' type="number" id='grid-size'></input>
+                </div>
+                <div id='grid-color-entry'>
+                    <label for='colors'>Choose a Grid Color:</label>
+                    <select name='colors' id="colors">
+                        <option value="green">Green</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="blue">Blue</option>
+                        <option value="purple">Purple</option>
+                        <option value="black">Black</option>
+                    </select>
+                </div>
+            </div>
+            <div class='button-container'>
+                <button id='CTA-Button' class='buttons'>Create Grid!</button>
+                <button id='Clear-Button' class='buttons' onclick="window.location.reload();">Clear Grid?</button>
+            </div>
+        </div>
         <div class="main-container">
         </div>
         <script src="Script.js"></script>

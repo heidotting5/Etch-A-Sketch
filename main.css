@@ -8,9 +8,10 @@ h1 {
     left: 0;
     margin-right: auto;
     margin-left: auto;
-    width: 60%;
+    width: 45%;
     font-family: Impact, Charcoal, sans-serif;
     font-size: 35px;
+   
 }
 
 .main-container {
@@ -26,8 +27,60 @@ h1 {
     background-color: white;
 }
 
-#grid-size-entry {
-    margin: 0 auto;
-    width: 100%;
-    margin-left: 300px;
+.user-choices {
+    right: 0;
+    left: 0;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+
 }
+
+.size-color {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#grid-size-entry {
+    margin-right: 15px;
+
+}
+
+#grid-size {
+    width: 80px;
+}
+
+#grid-color-entry  {
+    margin-left: 15px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.buttons {
+    display: inline-block;
+    padding: 0.5em 1.4em;
+    border: 0.1em solid black;
+    margin: 0 0.3em 0.3em 0;
+    border-radius: 0.12em;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Roboto',sans-serif;
+    font-weight: bolder;
+    color:black;
+    text-align: center;
+    transition: all 0.2s;
+    border-radius: 7px;
+}
+
+.buttons:hover {
+    color: white;
+    background-color: black;
+    border: 0.1em solid white;
+    cursor: pointer;
+}
+
