@@ -75,6 +75,7 @@ h1 {
     text-align: center;
     transition: all 0.2s;
     border-radius: 7px;
+    outline: none;
 }
 
 .buttons:hover {
