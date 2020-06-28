@@ -1,87 +1,114 @@
-
 body {
-    background-color: tomato;
+  background-color: grey;
 }
 
 h1 {
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    width: 45%;
-    font-family: Impact, Charcoal, sans-serif;
-    font-size: 35px;
-   
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 45%;
+  font-family: "Varela Round", sans-serif;
+  font-size: 35px;
+  text-decoration: underline;
 }
 
 .main-container {
-    position: relative;
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    min-height: 10em;
-    display: grid;
-    border: solid black 15px;
-    border-radius: 10px;
-    background-color: white;
+  position: relative;
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  min-height: 10em;
+  display: grid;
+  border: solid black 15px;
+  border-radius: 10px;
+  background-color: white;
+  width: 960px;
+}
+
+.main-header {
+  width: 960px;
 }
 
 .user-choices {
-    right: 0;
-    left: 0;
-    margin-right: auto;
-    margin-left: auto;
-    width: 40%;
-
+  right: 0;
+  left: 0;
+  margin-right: auto;
+  margin-left: auto;
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .size-color {
-    display: flex;
-    justify-content: space-evenly;
-    margin: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px;
+  font-family: "Varela Round", sans-serif;
 }
 
 #grid-size-entry {
-    margin-right: 15px;
-
+  margin-right: 15px;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #grid-size {
-    width: 80px;
+  width: 100px;
+  font-size: 18px;
+  font-family: "Varela Round", sans-serif;
 }
 
-#grid-color-entry  {
-    margin-left: 15px;
+#grid-color-entry {
+  margin-left: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Varela Round", sans-serif;
+}
+
+#colors {
+  font-size: 18px;
+  font-family: "Varela Round", sans-serif;
 }
 
 .button-container {
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
 }
 
 .buttons {
-    display: inline-block;
-    padding: 0.5em 1.4em;
-    border: 0.1em solid black;
-    margin: 0 0.3em 0.3em 0;
-    border-radius: 0.12em;
-    box-sizing: border-box;
-    text-decoration: none;
-    font-family: 'Roboto',sans-serif;
-    font-weight: bolder;
-    color:black;
-    text-align: center;
-    transition: all 0.2s;
-    border-radius: 7px;
-    outline: none;
+  display: inline-block;
+  padding: 0.5em 1.4em;
+  border: 0.1em solid black;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  color: black;
+  text-align: center;
+  transition: all 0.2s;
+  border-radius: 7px;
+  outline: none;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#CTA-Button {
+  background-color: green;
+}
+
+#Clear-Button {
+  background-color: red;
 }
 
 .buttons:hover {
-    color: white;
-    background-color: black;
-    border: 0.1em solid white;
-    cursor: pointer;
+  color: white;
+  background-color: black;
+  border: 0.1em solid white;
+  cursor: pointer;
 }
-
